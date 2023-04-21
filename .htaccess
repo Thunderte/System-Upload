@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^index$ index.php
+
+RewriteRule ^upload$ upload.php
+
+RewriteRule ^logout$ logout.php
+
+RewriteRule ^ups$ uploads.php
+
+RewriteRule ^hk/dashboard$ hk/index.php
+
+RewriteRule ^me$ me.php
+
+Header add Access-Control-Allow-Origin "*"
